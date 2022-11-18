@@ -1,6 +1,7 @@
 from selectionsort import *
 from insertionsort import *
-from mergesort import*
+from mergesort import *
+from quicksort import *
 # recursive limit set
 
 import sys
@@ -18,12 +19,13 @@ sys.setrecursionlimit(10000)
 #                                     # increased
 # insertionsort(list_long,len(list_long))
 
-list_long = list(range(1,100,2)) + list(range(0,100,2))
-# list_long = [34,25,81,99,12,1]
+# list_long = list(range(100,1,-1))
+list_long = [34,25,81,99,12,1]
 
 # ls1 = [1,2,3]
 # ls2 = [12,8,7]
 # print(merge(ls1,ls2))
 # print(list_long)
-new_sorted_list = mergesort(list_long,0,len(list_long))
-print(new_sorted_list)
+print(list_long)
+quicksort(list_long,0,len(list_long))
+print(list_long)
