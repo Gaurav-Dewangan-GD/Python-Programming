@@ -11,6 +11,6 @@ def bs(arr,v,l,r):
             return bs(arr,v,l,mid-1)
     else:
         return -1
-searchList = [1,2,3,4,5,6,7,8]
-print(bs(searchList,3,0,len(searchList)-1))
+searchList = list(range(1,100,1)) 
+print(bs(searchList,45,0,len(searchList)-1))
     

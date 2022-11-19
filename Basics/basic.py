@@ -13,7 +13,8 @@ print(product_Name)
 
 # Multiple variable assigning
 
-x = y = z = 2
+# x = y = z = 2
+(x,y,z) = 2
 print(x + y +z)
 
 # Data types available 
@@ -34,6 +35,7 @@ print(str1[0])
 print(str1[0:5])
 print(str1 * 3)
 print(str1[3:-1])
+# strings are not mutable at index
 
 # Lists
 
@@ -231,4 +233,3 @@ def fact(x):
     else:
         x *= fact(x-1)
         return x
-print(fact(10))
