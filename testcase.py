@@ -30,10 +30,12 @@
 # quicksort(list_long,0,len(list_long))
 # print(list_long)
 
-s = "Hello"
+# s = "Hello"
 # s[3] = 'p' not possible
-print(s)
-s = s[0:3] + "p!"
+# print(s)
+# s = s[0:3] + "p!"
 # formation of new string rather than old one
-print(s)
+# print(s)
+
+
 

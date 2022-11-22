@@ -1,0 +1,4 @@
+These are some contents
+to be written down from
+one file to another one
+ 
