@@ -1,0 +1,8 @@
+This is a random file
+whose data has to be 
+read via a python 
+script 
+To understand the concept 
+of file read and write
+in python
+Added this line to random.txt
