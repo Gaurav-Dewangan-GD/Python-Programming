@@ -6,4 +6,5 @@ I have made the repo open to the public so that people can contribute and correc
 These codes are generally a part of my DSA with Python course that I started pushing in November 2022. I will try to update it with other programming concepts like OOPs and functional programming while I am learning day to day.
 
 Hope you like it and make sure to contribute! I would check all the pull requests coming from you guys and try to resolve them as soon as possible.
-##
+
+>Happy Coding!
