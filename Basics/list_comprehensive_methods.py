@@ -1,6 +1,6 @@
 # since we knew we can pass function to a function
 # we can create functions that take various arguments
-# and updates basisc on function each single value if list
+# and updates based on function each single value if list
 
 def square(a):
     return a*a
